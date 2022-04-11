@@ -8,4 +8,4 @@ const router = express.Router()
 
 router.post('/user/cart/addtocart',requireSignin,userMiddleware,addItmToCart,)
 
-module.exports= router; 
+module.exports= router;   

@@ -45,7 +45,8 @@ exports.addItmToCart = (req,res)=>{
                 user:req.user._id,
                 cartItems:[req.body.cartItems]
             })
-         
+             
+            
             cart.save((error,cart)=>{
                 
                 if(cart){
